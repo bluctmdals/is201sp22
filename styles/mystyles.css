@@ -1,0 +1,17 @@
+.TableauPos1 {
+    width: 45%;
+    float: left;
+    padding-bottom: 15 px;
+}
+.TableauPos2 {
+    width: 45%;
+    float: right;
+    padding-bottom: 15 px;
+    padding-left: 15 px;
+}
+.indexFun {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: forestgreen;
+    float: right;
+}

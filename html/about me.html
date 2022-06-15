@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Brighton Lucas
+        7 June 2022-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>About Me - Brighton Lucas</title>
+        <link rel="icon" type="image/sun" href="../images/sun.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../styles/bootstrapstyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Brighton Lucas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/index.html">Home</a></li>
+                        <!--<li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="education.html">Education</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="experience.html">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="skills.html">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>-->
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="tableau.html">Tableau</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://i.pinimg.com/originals/e5/9c/82/e59c829455bd9cdc12930cb72c7253f3.png')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1  id="top">About Me</h1>
+                            <span class="subheading">Who we are is the summation of our past and future</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <body style="background-image: url(data:image/png;base64,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);">
+        <!-- The Id = "top" is used for the on page anchor at the bottom -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <img class="img-fluid w-75" src="../images/brighton.png" alt="Picture of Brighton" >
+
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+
+
+       
+        <br>
+        
+            <h1>
+                <div class="mx-auto" style="width: 900px;">
+                    <a href="#gen"> <br>General Info</a> | 
+                    <a href="#fam">Family Info</a> |
+                    <a href="#hob">Hobbies &amp Interests</a> <br>
+                </div>
+            </h1>
+        <br><br> 
+        <div class="mx-auto" style="width: 580px;">
+            <ul>
+                <p id="gen">
+                    <h2 class="post-title"><u>General</u></h2><br><br>
+                        <ul>
+                            <li>Age: 22 </li>
+                            <li>DOB: 2/29/00</li>
+                            <li>Gender: Male</li>
+                        </ul>
+                </p>
+                <br><br><br><hr class="my-4" /><br><br><br>
+                <p id="fam">
+                    <h2 class="post-title" fst=under><u>Family</u></h2><br><br>
+                    <ul>
+                        <li>(8) Children: <br>
+                            <ol>
+                                <li>Forrest</li>
+                                <li>Brighton (me)</li>
+                                <li>Maddie</li>
+                                <li>Caden</li>
+                                <li>Sterling</li>
+                                <li>Owen</li>
+                                <li>Janie Mae</li>
+                                <li>Hutchins</li>
+                            </ol>
+                            <br>
+                        </li>
+                        <li>Parents: 3</li>
+                        <br>
+                        <li>Favorite Sibling: Sterling but sometimes Caden :)</li>
+                    </ul>
+                </p> 
+                <br><br><br><hr class="my-4" /><br><br><br>
+                <p id="hob">
+                    <h2 class="post-title"><u>Hobbies &amp; Interests</u></h2><br><br>
+                        <ul>
+                            <li>Musical: Piano, Guitar, Percussion </li>
+                            <li>Outdoor: Rugby, Snowboarding, Pickleball</li>
+                            <li>Indoor: Weight Training, Lang Study, IS</li>
+                            <li>Watching Marvel Movies</li>
+                        </ul> 
+                        <img center src="../images/rugby.jpeg" height="150px" alt="Rugby game in action">
+                        <img center src="../images/snowboarding.jpeg" height="150px" alt="Snowboarders waiting to go down the slopes">
+                        <img center src="../images/Marvel_Logo.png" height="150px" alt="Marvel Logo">
+                </p>
+            </ul>
+            <br><br>
+        </div>
+        
+        <div class="mx-auto" style="width: 580px;">
+            <iframe width="560" alt="Spider-man No Way Home Trailer" height="315" src="https://www.youtube.com/embed/JfVOs4VSpmA" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        </div>
+        <hr class="my-4" />  
+        <br><br> 
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <h2 class="post-title">Education</h2>
+                        <h3 class="post-subtitle">Brigham Young University</h3>
+                        <p class="post-meta">
+                            Incoming Class of '20<br>
+                            Undergraduate
+                        </p>
+                    
+                        <!--<p class="post-meta">
+                            Posted by
+                            <a href="#!">Luke Skywalker</a>
+                            on December 3, 2021
+                        </p>-->
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <h2 class="post-title">Experience</h2>
+                        <h3 class="post-subtitle">IS 110, IS 201, Personal Website Development &amp; Creation</h3>
+                        <p class="post-meta">
+                            <li>Professional Collegiate Schooling</li>
+                            <li>Self-taught</li>
+                            <li>Roommate Taught</li>
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <h2 class="post-title">Skills</h2>
+                            <h3 class="post-subtitle">Making daily to-do lists, accomplishing 2/3 of list by 10am, limiting lists to 3 things, always making number 1 and number 2 "wake up" &amp "eat".</h3>
+                            <h4 class=" fst=italic"></h4>
+                        <p class="post-meta">
+                            <li>Database Query (SQL)</li>
+                            <li>Visual Basic (VBA)</li>
+                            <li>HTML/CSS Development</li>
+                            <li>Bootstrap Implementation</li>
+                            <br>
+                            <a href="https://valentinesdance.weebly.com">
+                                <h6 class="fst-italic">Please reference my previous web design here</h6>
+                            </a><br>
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                   
+                </div>
+            </div>
+        </div>
+      
+      <!--footer-->
+      <footer class="border-top">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            Brighton Lucas
+                        </li>
+                        <li class="list-inline-item">
+                            Address: 123 North Pole Way, Frigid, Canada
+                        </li>
+                        <li class="list-inline-item">
+                            Email: goodgr8sRhard@byu.edu
+                        </li>
+                    </ul>
+                    <div class="small text-center text-muted fst-italic">Copyright &copy; Brighton Lucas 2021 <br> <a href="#top">Back to top</a> </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+     </body>
+</html>
